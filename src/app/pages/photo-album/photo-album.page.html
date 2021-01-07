@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Photo-Album</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="fondo">
+  <header>
+    <ion-toolbar class="title" >
+      <span class="text">National Parks</span>
+    </ion-toolbar>
+</header>
+<ion-grid>
+  <ion-row>
+    <ion-col size-lg='3' size-md='12' size-sm='12' size='12' *ngFor='let photo of photos'>
+      <ion-card id="photo_{{photo.id}}">
+        <img src="{{photo.route}}"/>
+      </ion-card>
+      <p class="piedefoto">{{photo.title}}</p>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<!--   <ion-grid-list cols="1" rowHeight="2:1">
+    <ion-grid-tile>
+      <div class="contenedor">
+        <div class="caja">
+          <img class="torres" src="../assets/img/Torres del Paine.png" alt="">
+        <p>Torres del Paine, Patagonia</p>
+        </div>
+        <div class="caja">
+          <img class="colorado" src="../assets/img/Colorado-river.jpg" alt="">
+          <p>Colorado Canyon River</p>
+        </div>
+        <div class="caja">
+          <img class="masai" src="../assets/img/Serengeti-masai.jpg" alt="">
+          <p>Serengeti Masai Mara</p>
+        </div>
+      </div>
+    </ion-grid-tile>
+  </ion-grid-list> -->
+</ion-content>

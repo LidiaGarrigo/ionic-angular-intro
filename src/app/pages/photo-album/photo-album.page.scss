@@ -1,0 +1,29 @@
+.fondo{
+    --background: #F67878;
+.title{
+    padding:  0px 26px;
+    height: 100px;
+    --background: #333333;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+ion-grid{
+    padding: 2vh;
+    color: white;
+    ion-card{
+        border: solid 10px #D3D3D3;
+    }
+    #photo_1{
+        width: 130px;
+        height: 180px;
+    }
+    #photo_2{
+        width: 200px;
+        height: 260px;
+    }
+    .piedefoto{
+        margin-left: 1vh;
+    }
+}
+}
