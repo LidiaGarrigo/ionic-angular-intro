@@ -9,7 +9,7 @@ export class PhotoAlbumPage implements OnInit {
 
   photos: any[] = [
     {
-      route: '../../../assets/Torres del Paine.png',
+      route: '//imgur.com/a/8ORyubW',
       title: 'Torres del Paine, Patagonia',
       id: 1,
     },
