@@ -11,7 +11,7 @@ export class NbaChampionsPage implements OnInit {
     {
       year: 2015,
       champion: 'Clevelands Cavaliers',
-      champion_url: 'https://imgur.com/kKZtO7g',
+      champion_url: '../../../assets/Cleveland.png',
       best_players: [
         'Lebron James',
         'Kyrie Irving',
@@ -23,7 +23,7 @@ export class NbaChampionsPage implements OnInit {
     {
       year: 2014,
       champion: 'Golden State Warriors',
-      champion_url: 'https://imgur.com/709RlKv',
+      champion_url: '../../../assets/GoldenState.png',
       best_players: [
         'Stephen curry',
         'Klay Thompson',
@@ -35,7 +35,7 @@ export class NbaChampionsPage implements OnInit {
     {
       year: 2013,
       champion: 'San Antonio Spurs',
-      champion_url: 'https://imgur.com/gUy2xsZ',
+      champion_url: '../../../assets/SanAntonioSpurs.png',
       best_players: [
         'Tim Duncan',
         'Tony Parker',
