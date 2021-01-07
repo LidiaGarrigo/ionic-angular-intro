@@ -9,17 +9,17 @@ export class PhotoAlbumPage implements OnInit {
 
   photos: any[] = [
     {
-      route: '../../../assets/Torres del Paine.png',
+      route: 'assets/Torres del Paine.png',
       title: 'Torres del Paine, Patagonia',
       id: 1,
     },
     {
-      route: '../../../assets/Colorado-river.jpg',
+      route: 'assets/Colorado-river.jpg',
       title: 'Colorado Canyon River',
       id: 2,
     },
     {
-      route: '../../../assets/Serengeti-masai.jpg',
+      route: 'assets/Serengeti-masai.jpg',
       title: 'Serengeti Masai Mara',
       id: 3,
     },
