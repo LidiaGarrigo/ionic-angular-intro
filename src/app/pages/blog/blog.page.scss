@@ -6,7 +6,7 @@ ion-card{
   justify-content: center;
   align-items: center;
   .contenedor{
-    width: 45%;
+    width: 90%;
   }
 }
 .main {
@@ -14,6 +14,9 @@ ion-card{
   #titulo {
     font-size: 25px;
     margin: 2vh 0;
+  }
+  img{
+    width: 100%;
   }
   .description{
     margin: 2vh 0;
